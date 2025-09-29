@@ -1,10 +1,12 @@
-function alternateArrayPrint(arr)
+function recursiveAlternatePrint(arr, startIndex)
 {
-    console.log("The alternate elements in the array are: \n");
-    for (let i = 0; i < arr.length; i += 2)
+    if (startIndex >= arr.length)
     {
-        console.log(arr[i] + " ");
+        return;
     }
+    console.log(arr[startIndex] += " ");
+    recursiveAlternatePrint(arr, startIndex + 2);
 }
-let arr = [1, 2, 3, 4, 5, 6];
-alternateArrayPrint(arr);
+let arr1 = [10, 20, 30, 40, 50, 60];
+console.log("The alternate elements in the array using recursion are: \n");
+recursiveAlternatePrint(arr1, 0);
