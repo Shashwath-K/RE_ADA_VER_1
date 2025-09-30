@@ -1,12 +1,23 @@
-function recursiveAlternatePrint(arr, startIndex)
-{
-    if (startIndex >= arr.length)
-    {
-        return;
+function leaders(arr) {
+    const result = [];
+    const n = arr.length;
+    
+    for (let i = 0; i < n; i++) {
+        let j;
+        for (j = i + 1; j < n; j++) {
+            if (arr[i] < arr[j])
+                break;
+        }
+
+        if (j === n)
+            result.push(arr[i]);
     }
-    console.log(arr[startIndex] += " ");
-    recursiveAlternatePrint(arr, startIndex + 2);
+    
+    return result;
 }
-let arr1 = [10, 20, 30, 40, 50, 60];
-console.log("The alternate elements in the array using recursion are: \n");
-recursiveAlternatePrint(arr1, 0);
+
+const arr = [16, 17, 4, 3, 5, 2];
+console.log("Original array:", arr);
+const result = leaders(arr);
+
+console.log("Leaders in the array:", result.join(" ")); 
