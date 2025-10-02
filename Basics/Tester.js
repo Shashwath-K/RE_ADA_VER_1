@@ -1,23 +1,26 @@
-function leaders(arr) {
-    const result = [];
-    const n = arr.length;
-    
-    for (let i = 0; i < n; i++) {
-        let j;
-        for (j = i + 1; j < n; j++) {
-            if (arr[i] < arr[j])
-                break;
+function check_sorted(arr)
+{
+    let flag = true;
+    for (let i = 0; i < arr.length; i++)
+    {
+        if (arr[i] >= arr[i + 1])
+        {
+            flag = false;
+            break;
         }
-
-        if (j === n)
-            result.push(arr[i]);
     }
-    
-    return result;
+    return flag;
 }
-
-const arr = [16, 17, 4, 3, 5, 2];
-console.log("Original array:", arr);
-const result = leaders(arr);
-
-console.log("Leaders in the array:", result.join(" ")); 
+function check_sorted_desc(arr)
+{
+    let res = check_sorted(arr);
+    if (res == false)
+    {
+        console.log("Array is not sorted in ascending order");
+    }
+    else    
+    {
+        console.log("Array is sorted in ascending order");
+    }
+}
+console.log(check_sorted_desc([1, 2, 3, 4, 5]));
