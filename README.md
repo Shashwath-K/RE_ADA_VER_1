@@ -11,21 +11,23 @@
   - Size of an array occupied in the memory.
  
   ```
+
 **Day 2: Basic problems related to arrays have been started** <br/>
-> Print alternatives of an array
+> Print alternate elements of an array.
 
-**Day 3: Print the leaders in an array**
-> <desc>
+**Day 3: Print the leaders in an array**  
+> Find elements in the array that are greater than all the elements to their right.
 
-**Day 4: Sorting and removing duplicates**
-> <desc>
+**Day 4: Sorting and removing duplicates**  
+> Sort the array and remove any duplicate elements.
 
-**Day 5: Generating Subarrays, reverse and rotating an array**
-> <desc>
+**Day 5: Generating Subarrays, reverse and rotating an array**  
+> Generate all subarrays, reverse an array, and rotate an array by a given number of positions.
 
-**Day 6: Generating all the zeros of an array at the end**
-> <desc>
+**Day 6: Generating all the zeros of an array at the end**  
+> Move all zero elements of the array to the end without changing the order of non-zero elements.
 
-**Day 7: Min increments and find min cost**
-> <desc>
+**Day 7: Min increments and find min cost**  
+> Find the minimum number of increments to make all elements equal and the minimum cost for the operation.
+
 
