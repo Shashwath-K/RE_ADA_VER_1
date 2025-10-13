@@ -12,4 +12,20 @@
  
   ```
 **Day 2: Basic problems related to arrays have been started** <br/>
+> Print alternatives of an array
+
+**Day 3: Print the leaders in an array**
+> <desc>
+
+**Day 4: Sorting and removing duplicates**
+> <desc>
+
+**Day 5: Generating Subarrays, reverse and rotating an array**
+> <desc>
+
+**Day 6: Generating all the zeros of an array at the end**
+> <desc>
+
+**Day 7: Min increments and find min cost**
+> <desc>
 
