@@ -2,7 +2,7 @@
 > Continuing the array problems from [GeeksForGeeks.com](https://www.geeksforgeeks.org/dsa/array-data-structure-guide/)
 
 #### Easy Problems
-- Duplicate within K Distance 
+- [Duplicate within K Distance](./duplicate_within_k_distance.ipynb) 
 - Make Even Positioned Greater
 - Sum of all Subarrays
 - Stock Buy and Sell – Multiple Transactions
