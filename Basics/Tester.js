@@ -1,26 +1,30 @@
-function check_sorted(arr)
+function make_evn(arr)
 {
-    let flag = true;
-    for (let i = 0; i < arr.length; i++)
+    let n = arr.length;
+    for (let i = 1; i < n; i++)
     {
-        if (arr[i] >= arr[i + 1])
+        if((i+1)%2 == 0)
         {
-            flag = false;
-            break;
+            if(arr[i] < arr[i+1])
+            {
+                let temp = arr[i];
+                arr[i] = arr[i+1];
+                arr[i+1] = temp;
+            }
+        }
+        else
+        {
+            if(arr[i] > arr[i+1])
+            {
+                let temp = arr[i];
+                arr[i] = arr[i+1];
+                arr[i+1] = temp;
+            }
         }
     }
-    return flag;
 }
-function check_sorted_desc(arr)
-{
-    let res = check_sorted(arr);
-    if (res == false)
-    {
-        console.log("Array is not sorted in ascending order");
-    }
-    else    
-    {
-        console.log("Array is sorted in ascending order");
-    }
-}
-console.log(check_sorted_desc([1, 2, 3, 4, 5]));
+console.log("Make even positioned elements greater than odd positioned elements");
+let arr = [1, 3, 2, 2, 5];
+make_evn(arr);
+console.log(arr);
+// Output: [3, 1, 5, 2, 2]
