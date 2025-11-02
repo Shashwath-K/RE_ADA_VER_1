@@ -38,3 +38,5 @@
 > - The objective is to find the sum of all sub-arrays in the given elements of variable size.
 > - To predict the sum and profit/loss of the current stock of a given market. 
 
+**Day 10:Searching problems have been initialized**
+> Starting with the Binary search and Ternary search.
