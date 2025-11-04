@@ -30,4 +30,13 @@
 **Day 7: Min increments and find min cost**  
 > Find the minimum number of increments to make all elements equal and the minimum cost for the operation.
 
+**Day 8: Duplicates within K Distance and Make even positioned greater**
+> - To find the elements within the k nearest distance. K varies based on the input provided by the user.
+> - Second problem worked on this day is to make all the even positioned elements in the array greater than the preceding elements.
 
+**Day 9 :Sum of all Subarrays and Stock sell and buy**
+> - The objective is to find the sum of all sub-arrays in the given elements of variable size.
+> - To predict the sum and profit/loss of the current stock of a given market. 
+
+**Day 10:Searching problems have been initialized**
+> Starting with the Binary search and Ternary search.
