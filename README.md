@@ -1,6 +1,7 @@
 # DS Testing progress 
 
 > Update required
+> Structure for all the folders should be defined
 
 **Day 0 : Initalizing the Repo** <br/>
  `[Dated : 27/09/2025] -> The Public repo for this venture is initialized in the main system.`
@@ -43,4 +44,5 @@
 
 **Day 10:Searching problems have been initialized**
 > Starting with the Binary search and Ternary search.
+
 
