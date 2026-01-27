@@ -1,0 +1,4 @@
+Diverse And Robust Datasets Are The Bedrock Of The Proposed Road Lane And Vehicle Detection System. Data Collection: We Have Recorded High-Resolution Images Andvideo Streams Multiple Road Scenes Across Multiple Road Environments Including Scenes During Both Day Time Andnight Time, Fog And Rain
+A File Is A Named Location Used For Storing Data. For Example, Main.Py Is A File That Is Always Used To Store Python Code.
+Python Provides Various Functions To Perform Different File Operations, A Process Known As File Handling.
+Python Is 
