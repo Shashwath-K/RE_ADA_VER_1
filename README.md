@@ -1,48 +1,34 @@
 # DS Testing progress 
 
-> Structure for all the folders should be defined
+> Structure for all the folders is defined below
 
-**Day 0 : Initalizing the Repo** <br/>
- `[Dated : 27/09/2025] -> The Public repo for this venture is initialized in the main system.`
+**Basics: Arrays and Fundamentals** <br/>
+ `[Location: Basics/]` -> Contains foundational implementations in both Java and Python.
+ > - **Core Concepts**: Initialization, Declaration, Calling, Memory sizing.
+ > - **Array Operations**: Sorting, Removing duplicates, Reversing, Rotating, Moving zeros.
+ > - **Problem Solving**: Leaders in array, Min increments/cost, Duplicates within K distance.
+ > - **Advanced**: Generating subarrays, Subarray sums, Stock buy/sell problems.
 
-**Day 1: Started with the Arrays**<br/>
- `[Dated : 28/09/2025] -> Created the files for both .java as well as .py based versions for the basics of arrays.The following has been covered:`
-  ```
-  - Initilizing
-  - Declaring
-  - Calling
-  - Size of an array occupied in the memory.
- 
-  ```
+**Searching Algorithms** <br/>
+ `[Location: Searching/]` -> Focuses on various searching techniques and related array problems.
+ > - **Algorithms**: Binary Search, Ternary Search.
+ > - **Analysis**: Common elements in arrays, First repeating element, Missing and Repeating numbers.
+ > - **Order Statistics**: K-th smallest/largest elements (Row/Column wise), Largest/Second largest elements.
 
-**Day 2: Basic problems related to arrays have been started** <br/>
-> Print alternate elements of an array.
+**LeetCode Solutions** <br/>
+ `[Location: leet/]` -> A collection of solutions for popular LeetCode problems.
+ > - **String Manipulation**: Longest Common Prefix, Valid Palindrome, Roman to Integer, Integer to Roman.
+ > - **Arrays & Math**: Two Sum, 3Sum, Pascal's Triangle, Plus One, Sqrt(x).
+ > - **Linked Lists**: Merge Sorted Lists, Remove Nth Node, Linked List Cycle.
+ > - **Logic & DP**: Climbing Stairs, Generate Parentheses.
 
-**Day 3: Print the leaders in an array**  
-> Find elements in the array that are greater than all the elements to their right.
+**Classroom & Assignments** <br/>
+ `[Location: class/]` -> Coursework, notes, and assignments for Python Automation and AI Agents.
+ > - **Course Notes**: Indentation, File Handling, Complete Python Automation Notes.
+ > - **Assignments**: LeetCode Assignment 1, Python Essentials Assignments.
+ > - **Scripts**: App.py and various text processing outputs.
 
-**Day 4: Sorting and removing duplicates**  
-> Sort the array and remove any duplicate elements.
-
-**Day 5: Generating Subarrays, reverse and rotating an array**  
-> Generate all subarrays, reverse an array, and rotate an array by a given number of positions.
-
-**Day 6: Generating all the zeros of an array at the end**  
-> Move all zero elements of the array to the end without changing the order of non-zero elements.
-
-**Day 7: Min increments and find min cost**  
-> Find the minimum number of increments to make all elements equal and the minimum cost for the operation.
-
-**Day 8: Duplicates within K Distance and Make even positioned greater**
-> - To find the elements within the k nearest distance. K varies based on the input provided by the user.
-> - Second problem worked on this day is to make all the even positioned elements in the array greater than the preceding elements.
-
-**Day 9 :Sum of all Subarrays and Stock sell and buy**
-> - The objective is to find the sum of all sub-arrays in the given elements of variable size.
-> - To predict the sum and profit/loss of the current stock of a given market. 
-
-**Day 10:Searching problems have been initialized**
-> Starting with the Binary search and Ternary search.
-
-
-
+**Project Items** <br/>
+ `[Location: Root]` -> Miscellaneous configurations and project files.
+ > - **Configuration**: .gitignore, .gradio, .venv
+ > - **Other**: output.txt, el_planer
