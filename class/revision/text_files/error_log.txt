@@ -1,0 +1,2 @@
+Disk read error detected
+Login warning: password attempts high

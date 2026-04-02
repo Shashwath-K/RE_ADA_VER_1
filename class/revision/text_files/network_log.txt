@@ -1,0 +1,7 @@
+2026-03-15 10:21:34 ERROR from 192.168.1.10 connection failed
+Random text abc123 !!!
+2026-03-15 11:05:12 ERROR from 10.0.0.5 timeout
+User login success 172.16.5.4
+2026-03-15 12:45:09 ERROR from 8.8.8.8 packet loss detected
+Noise data ###$$$
+2026-03-15 14:10:55 ERROR from 192.168.0.2 system crash
