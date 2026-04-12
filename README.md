@@ -1,4 +1,4 @@
-# DS Testing progress 
+# Python Data Structures and Notes
 
 > Structure for all the folders is defined below
 
