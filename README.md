@@ -26,7 +26,18 @@
  `[Location: class/]` -> Coursework, notes, and assignments for Python Automation and AI Agents.
  > - **Course Notes**: Indentation, File Handling, Complete Python Automation Notes.
  > - **Assignments**: LeetCode Assignment 1, Python Essentials Assignments.
+ > - **AI Class**: Artificial Intelligence class notes and Deep Learning assignments.
  > - **Scripts**: App.py and various text processing outputs.
+
+**Machine Learning Basics** <br/>
+ `[Location: ml_basics/]` -> Introductory machine learning notebooks and reusable implementations.
+ > - **Notebooks**: Linear Regression, sklearn, NumPy & Pandas operations, Python arithmetic.
+ > - **Implementations**: Custom linear regression model with fit/predict/R² scoring.
+ > - **Deep Learning** (`ml_basics/deep_learning/`): Keras cats-vs-dogs convolutional neural networks.
+ >   - Dataset preparation and split into train/validation/test.
+ >   - Basic convnet and convnet with data augmentation + dropout.
+ >   - Pretrained VGG16 feature extraction, frozen base with augmentation, and fine-tuning.
+ >   - Random image augmentation visualization.
 
 **Project Items** <br/>
  `[Location: Root]` -> Miscellaneous configurations and project files.
