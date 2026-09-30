@@ -41,6 +41,7 @@ A collection of solutions for popular LeetCode problems.
 Coursework, notes, and assignments for Python Automation and AI Agents.
 
 - **Course Notes**: Indentation, File Handling, Complete Python Automation Notes.
+- **NLP Class Notes**: Natural Language Processing materials (`class/notes/NLP/`) spanning text preprocessing, POS tagging, vectorization (BoW, TF-IDF), embeddings (Word2Vec, GloVe), classical modeling, Transformers (BERT, DistilBERT), and BERTopic.
 - **Assignments**: LeetCode Assignment 1, Python Essentials Assignments.
 - **AI Class**: Artificial Intelligence class notes and Deep Learning assignments.
 - **Scripts**: App.py and various text processing outputs.
