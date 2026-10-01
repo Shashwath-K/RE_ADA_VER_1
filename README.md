@@ -40,9 +40,10 @@ A collection of solutions for popular LeetCode problems.
 
 Coursework, notes, and assignments for Python Automation and AI Agents.
 
-- **Course Notes**: Indentation, File Handling, Complete Python Automation Notes.
-- **NLP Class Notes**: Natural Language Processing materials (`class/notes/NLP/`) spanning text preprocessing, POS tagging, vectorization (BoW, TF-IDF), embeddings (Word2Vec, GloVe), classical modeling, Transformers (BERT, DistilBERT), and BERTopic.
-- **Assignments**: LeetCode Assignment 1, Python Essentials Assignments.
+- **Course Notes** (`class/notes/`): Mathematics and Statistics for AI study guide, Deep Learning class notes, Decision Trees, Hyperparameter tuning, Titanic regression, and complete Python automation notes.
+- **NLP Class Notes** (`class/notes/NLP/`): Natural Language Processing materials covering text preprocessing, POS tagging, vectorization (BoW, TF-IDF), embeddings (Word2Vec, GloVe), classical modeling, Transformers (BERT, DistilBERT), and BERTopic topic modeling.
+- **Amazon Food Reviews NLP** (`class/notes/NLP/amazon_food_reviews/`): Multi-model sentiment classification workflows (LSTM, FastText, TextCNN, BiGRU ensemble).
+- **Assignments** (`class/assignments/`): AI12 Machine Learning Assignments 1 & 2, Day 5 PCA, Day 5 Time Series Forecasting, Day 5 Model Explainability, LeetCode Assignment 1, and Python Essentials assignments.
 - **AI Class**: Artificial Intelligence class notes and Deep Learning assignments.
 - **Scripts**: App.py and various text processing outputs.
 
@@ -50,21 +51,22 @@ Coursework, notes, and assignments for Python Automation and AI Agents.
 
 **Location:** `ml_basics/`
 
-Introductory machine learning notebooks and reusable implementations.
+Introductory and classical machine learning algorithm notebooks and reusable implementations.
 
-- **Notebooks**: Linear Regression, sklearn, NumPy & Pandas operations, Python arithmetic.
+- **Foundations**: Linear Regression, sklearn basics, NumPy & Pandas operations, Python arithmetic.
+- **Supervised Learning**: Linear Regression with Feature Scaling, Logistic Regression, Decision Tree Classification, KNN Classification, Random Forest Classification, California Housing Regression.
+- **Unsupervised Learning & Mining**: K-Means Clustering, Apriori Market Basket Analysis.
+- **Time Series**: Facebook Prophet Time Series Forecasting.
 - **Implementations**: Custom linear regression model with fit, predict, and R2 scoring.
 
 ### Deep Learning
 
 **Location:** `ml_basics/deep_learning/`
 
-Keras cats-vs-dogs convolutional neural networks.
+Convolutional and recurrent deep learning architectures and computer vision.
 
-- Dataset preparation and split into train, validation, and test.
-- Basic convnet, and convnet with data augmentation and dropout.
-- Pretrained VGG16 feature extraction, frozen base with augmentation, and fine-tuning.
-- Random image augmentation visualization.
+- **Computer Vision**: BDD100K road scene perception with YOLO, Keras cats-vs-dogs convnets, data augmentation, pretrained VGG16 feature extraction and fine-tuning, Chapter 8 companion notebooks.
+- **Sequential & Recurrent Models**: Keras LSTM text generation and Keras LSTM stock price forecasting.
 
 ## Project Items
 
